@@ -31,8 +31,4 @@ class Model {
         return $this->query($query);
     }
 
-    public function getSkill() {
-        return $this->query("SELECT * FROM `skill`");
-    }
-
 }

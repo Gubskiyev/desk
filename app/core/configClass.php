@@ -3,5 +3,5 @@ class Config {
     const DBHOST = 'localhost';
     const DBUSER = 'root';
     const DBPASS = 'root';
-    const DBNAME = 'dwmvc';
+    const DBNAME = 'desk';
 }
