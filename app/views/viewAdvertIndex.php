@@ -1,24 +1,26 @@
-
-<table width="700px" class="table-bordered" align="center">
-    <tr>
-        <td>
-            #Title
-        </td>
-    </tr>
-    <tr>
-        <td>
-            #Text
-        </td>
-    </tr>
-    <tr>
-        <td>
-            #Phone
-        </td>
-    </tr>
-    <tr>
-        <td>
-            #Name
-        </td>
-    </tr>
-
-</table>
+<div class="container">
+    <table class="table table-striped" align="center" width="500px">
+        <?php foreach($data as $advert): ;?>
+        <tr>
+            <td>
+                <?=$advert['title']?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <?=$advert['text']?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <?=$advert['phone']?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <?=$advert['user']?>
+            </td>
+        </tr>
+        <?php endforeach ;?>
+    </table>
+</div>

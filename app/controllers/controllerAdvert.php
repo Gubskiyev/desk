@@ -9,7 +9,7 @@ class ControllerAdvert extends Controller {
     }
 
     public function actionView() {
-        $data = '';
+        $data = $this->model->getAllAdverts();
         $this->view->render('Форум','viewAdvertIndex.php','template.php', $data);
     }
 }
